@@ -11,6 +11,7 @@
     <modules>
         <module>zhaoyun-thread-pool</module>
         <module>zhaoyun-actuator</module>
+        <module>zhaoyun-stream</module>
     </modules>
 
     <packaging>pom</packaging>

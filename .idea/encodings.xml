@@ -2,6 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhaoyun-actuator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhaoyun-stream" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zhaoyun-thread-pool" charset="UTF-8" />
   </component>
 </project>
