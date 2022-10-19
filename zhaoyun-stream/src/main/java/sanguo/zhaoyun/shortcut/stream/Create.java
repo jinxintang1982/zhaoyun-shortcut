@@ -6,7 +6,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Convert {
+public class Create {
     public static void create(){
         // 1. Individual values
         Stream stream = Stream.of("a", "b", "c");
