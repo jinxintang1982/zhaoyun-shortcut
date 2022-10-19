@@ -16,15 +16,15 @@ public class OptionalDemo {
     }
 
     public static void orElse() {
-
+        //如果获取对象为空，则执行orElse
         User user = Optional.ofNullable(getUserById(0))
                 .orElse(new User());
     }
 
     public static void orElseThrow() {
+        //如果获取对象为空，则抛出异常
         User user = Optional.ofNullable(getUserById(0))
                 .orElseThrow(() -> new RuntimeException("user 对象为空"));
-
         System.out.println("user name = " + user.userName);
     }
 

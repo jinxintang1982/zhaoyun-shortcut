@@ -21,11 +21,11 @@ public class Terminal {
     //匹配
     public static void match() {
         //anyMatch:只有在任意一个元素满足断言时就返回 true，否则 flase；
-        System.out.println(Stream.of(1,2,3,4,5).anyMatch(i -> i > 0)); //true
-        //noneMatch:只有在所有的元素都不满足断言时才返回 true，否则 flase；
+        System.out.println(Stream.of(1,2,3,4,5).anyMatch(i -> i > 0)); // true
+        //noneMatch:只有在所有的元素都不满足断言时才返回 true，否则 false；
         System.out.println(Stream.of(1,2,3,4,5).noneMatch(i -> i > 0)); //false
-        //allMatch：只有在所有的元素都满足断言时才返回 true，否则 flase，流为空时总是返回 true；
-        System.out.println(Stream.of(1,2,3,4,5).allMatch(i -> i > 0)); //true
+        //allMatch：只有在所有的元素都满足断言时才返回 true，否则 false，流为空时总是返回 true；
+        System.out.println(Stream.of(1,2,3,4,5).allMatch(i -> i > 0)); // true
     }
 
     //查找
