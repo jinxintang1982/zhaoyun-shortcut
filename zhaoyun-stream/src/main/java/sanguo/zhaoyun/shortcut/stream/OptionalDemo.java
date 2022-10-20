@@ -1,38 +1,34 @@
 package sanguo.zhaoyun.shortcut.stream;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 
 public class OptionalDemo {
 
     public static void ifPresent() {
-        Optional<User> user = Optional.ofNullable(getUserById(1));
         //如果user不为null,打印其姓名
-        user.ifPresent(u -> System.out.println("Username is: " + u.userName));
+        User.findUserById(0).stream().findAny().ifPresent(u -> System.out.println("Username is: " + u.getUserName()));
     }
 
     public static void isPresent() {
-        Optional<User> user = Optional.ofNullable(getUserById(1));
-        System.out.println(user.isPresent());//true
+        System.out.println(User.findUserById(0).stream().findAny().isPresent());//true
     }
 
     public static void orElse() {
         //如果获取对象为空，则执行orElse
-        User user = Optional.ofNullable(getUserById(0))
-                .orElse(new User());
+        User user1 = User.findUserById(0).stream().findAny().orElse(null);
+        User user2 = User.findUserById(1).stream().findAny().orElse(new User());
     }
 
     public static void orElseThrow() {
         //如果获取对象为空，则抛出异常
-        User user = Optional.ofNullable(getUserById(0))
+        User user = User.findUserById(0).stream().findAny()
                 .orElseThrow(() -> new RuntimeException("user 对象为空"));
-        System.out.println("user name = " + user.userName);
+        System.out.println("user name = " + user.getUserName());
     }
 
-    public static class User {
-        public String userName;
-    }
 
-    private static User getUserById(int id) {
-        return id == 1 ? new User() : null;
-    }
+
+
 }

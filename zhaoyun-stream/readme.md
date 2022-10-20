@@ -1,6 +1,3 @@
-# 创建Stream
-
-# 操作Stream
 
 ## 中间操作
 + distinct
@@ -17,14 +14,15 @@
 > 返回丢弃了前n个元素的流，如果流中的元素小于或者等于n，则返回空的流；
 
 ## 终点操作
-+ Match
-+ count
-+ collect
-+ find
 + forEach、forEachOrdered
-+ max、min
+> 遍历流的每一个元素，执行指定的 action；
++ match
+> 根据指定条件，判断是否能够进行匹配
++ find
+> 在流中查找元素，返回Optional
++ max、min、count
+> 在流中进行计算，特殊类型的reduce
 + reduce
-+ toArray()
-
-# 组合
-# 转换
+> 根据指定算法进行计算
++ collect
+> 收集流中的元素到list，set,map中
