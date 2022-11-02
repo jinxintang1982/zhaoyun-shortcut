@@ -12,6 +12,7 @@
         <module>zhaoyun-thread-pool</module>
         <module>zhaoyun-actuator</module>
         <module>zhaoyun-stream</module>
+        <module>zhaoyun-valid</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -120,10 +121,7 @@
             <version>4.13.1</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
+
     </dependencies>
     <build>
         <finalName>${artifactId}</finalName>
