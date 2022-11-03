@@ -1,28 +1,21 @@
 package sanguo.zhaoyun.shortcut.valid.controller;
+
+
 import javax.validation.constraints.NotNull;
 
 public class RequestParam {
 
-    private static final long serialVersionUID = 1L;
+    @NotNull(message = "年龄不能为空")
+    public Long age;
 
-    /**
-     * 页码
-     */
-    @NotNull(message = "页码不能为空")
-    private Long pageNo;
+    @NotNull(message = "姓名不能为空", groups = {ISaveGroup.class})
+    public String name;
 
     @Override
     public String toString() {
-        return "AssistMsgPageRequest{" +
-                "pageNo=" + pageNo +
+        return "RequestParam{" +
+                "age=" + age +
+                ", nanme=" + name +
                 '}';
-    }
-
-    public Long getPageNo() {
-        return pageNo;
-    }
-
-    public void setPageNo(Long pageNo) {
-        this.pageNo = pageNo;
     }
 }
