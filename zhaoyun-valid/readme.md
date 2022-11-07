@@ -44,13 +44,13 @@
 ```
 
 ###六、分组校验
+> 只“校验”某个分组的校验项
 + 定义校验对象
 ```aidl
     public class RequestParam {
-    
         @NotNull(message = "年龄不能为空")
         public Long age;
-    
+        
         @NotNull(message = "姓名不能为空", groups = {ISaveGroup.class})
         public Long nanme;
     }
@@ -65,7 +65,46 @@
 ```aidl
     @RequestMapping("/validGroup")
     public String saveUser(@RequestBody @Validated(ISaveGroup.class) RequestParam requestParam) {
-        //必须填写name，才能通过
         return "OK";
     }
+    
+> 注：必须填写name，才能通过；可以不填写age
+```
+
+###七、自定义校验
++ 自定义注解
+```aidl
+@Documented
+@Target({ElementType.PARAMETER, ElementType.FIELD})
+@Retention(RetentionPolicy.RUNTIME)
+@Constraint(validatedBy = IdentityCardNumberValidator.class)
+
+public @interface IdentityCardNumber {
+
+    String message() default "身份证号码不合法";
+
+    Class<?>[] groups() default {};
+
+    Class<? extends Payload>[] payload() default {};
+
+}
+```
+
++ 自定义校验类
+```aidl
+public class IdentityCardNumberValidator implements ConstraintValidator<IdentityCardNumber, Object> {
+
+    public void initialize(IdentityCardNumber identityCardNumber) {
+    }
+
+    public boolean isValid(Object o, ConstraintValidatorContext constraintValidatorContext) {
+        return o.toString().startsWith("110");//假设身份证号都是110开头
+    }
+}
+```
+
++ 添加校验的变量
+```aidl
+    @IdentityCardNumber(message = "身份证号不能为空")
+    public String clientCardNo;
 ```
