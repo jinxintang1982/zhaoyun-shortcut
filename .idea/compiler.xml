@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="zhaoyun-stream" />
         <module name="zhaoyun-thread-pool" />
+        <module name="zhaoyun-exception-handle" />
         <module name="zhaoyun-valid" />
         <module name="zhaoyun-actuator" />
       </profile>
@@ -17,6 +18,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="zhaoyun-actuator" options="-parameters" />
+      <module name="zhaoyun-exception-handle" options="-parameters" />
       <module name="zhaoyun-stream" options="-parameters" />
       <module name="zhaoyun-thread-pool" options="-parameters" />
     </option>

@@ -13,6 +13,7 @@
         <module>zhaoyun-actuator</module>
         <module>zhaoyun-stream</module>
         <module>zhaoyun-valid</module>
+        <module>zhaoyun-exception-handle</module>
     </modules>
 
     <packaging>pom</packaging>
