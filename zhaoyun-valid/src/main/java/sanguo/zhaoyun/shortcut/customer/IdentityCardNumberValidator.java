@@ -13,9 +13,6 @@ import java.util.List;
  **/
 public class IdentityCardNumberValidator implements ConstraintValidator<IdentityCardNumber, Object> {
 
-    public void initialize(IdentityCardNumber identityCardNumber) {
-    }
-
     public boolean isValid(Object o, ConstraintValidatorContext constraintValidatorContext) {
         return o.toString().startsWith("110");//
     }

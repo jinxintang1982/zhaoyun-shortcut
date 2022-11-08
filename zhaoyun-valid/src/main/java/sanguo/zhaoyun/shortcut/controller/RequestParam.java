@@ -24,4 +24,6 @@ public class RequestParam {
                 ", clientCardNo='" + clientCardNo + '\'' +
                 '}';
     }
+
+
 }
