@@ -13,6 +13,7 @@ public enum ErrCodeEnum {
     UPDATE_ERROR(1001,"更新数据失败"),
     SAVE_ERROR(1002,"保存数据失败"),
     ENUM_ERROR(1003,"枚举值异常"),
+    PARAM_ERROR(1004,"参数校验异常"),
 
     //-----2000~3000为业务异常；
     ORDER_NO_JOB(2001,"该订单的货架没有出库job"),

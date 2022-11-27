@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92ea5ff7-ce02-417c-8981-7f876de8a3e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/zhaoyun-exception-handle/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zhaoyun-exception-handle/zhaoyun-exception-handle.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaoyun-exception-handle/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/zhaoyun-exception-handle/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/controller/RestTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/controller/RestTestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/reuslt/ErrCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/reuslt/ErrCodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/reuslt/ResultAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/reuslt/ResultAdvice.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,19 +41,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/controller/RestTestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="25" selection-start-line="25" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/MegviiApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="357">
+              <caret line="20" selection-start-line="20" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,84 +53,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/reuslt/ResultAdvice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="26" column="47" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zhaoyun-exception-handle/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="528">
+                <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/controller/ErrCodeEnum.java">
+        <entry file="file://$PROJECT_DIR$/zhaoyun-valid/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="220">
+                <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/reuslt/ErrCodeEnum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/controller/BusinessException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/controller/ResultAdvice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/controller/RestTestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/controller/DataResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
-              <folding>
-                <element signature="e#621#622#0" expanded="true" />
-                <element signature="e#657#658#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhaoyun-valid/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="10" selection-start-line="10" selection-end-line="23" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhaoyun-exception-handle/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -166,15 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/zhaoyun-thread-pool/src/main/java/sanguo/zhaoyun/shortcut/AdviceException/DataResult.java" />
-        <option value="$PROJECT_DIR$/zhaoyun-thread-pool/src/main/java/sanguo/zhaoyun/shortcut/AdviceException/ForkController.java" />
-        <option value="$PROJECT_DIR$/zhaoyun-thread-pool/src/main/java/sanguo/zhaoyun/shortcut/AdviceException/BusiService.java" />
-        <option value="$PROJECT_DIR$/zhaoyun-thread-pool/src/main/java/sanguo/zhaoyun/shortcut/AdviceException/BusiController.java" />
-        <option value="$PROJECT_DIR$/zhaoyun-thread-pool/src/main/java/sanguo/zhaoyun/shortcut/AdviceException/ResultAdvice.java" />
-        <option value="$PROJECT_DIR$/zhaoyun-thread-pool/src/main/java/sanguo/zhaoyun/shortcut/AdviceException/readme.md" />
-        <option value="$PROJECT_DIR$/zhaoyun-stream/src/main/java/sanguo/zhaoyun/shortcut/stream/CreateStream.java" />
-        <option value="$PROJECT_DIR$/zhaoyun-stream/src/main/java/sanguo/zhaoyun/shortcut/stream/OperationStream.java" />
-        <option value="$PROJECT_DIR$/zhaoyun-stream/src/main/java/sanguo/zhaoyun/shortcut/stream/OperationIntermediateStream.java" />
         <option value="$PROJECT_DIR$/zhaoyun-stream/src/main/java/sanguo/zhaoyun/shortcut/stream/Convert.java" />
         <option value="$PROJECT_DIR$/zhaoyun-stream/src/main/java/sanguo/zhaoyun/shortcut/stream/Intermediate.java" />
         <option value="$PROJECT_DIR$/zhaoyun-stream/src/main/java/sanguo/zhaoyun/shortcut/stream/Optional.java" />
@@ -215,8 +158,17 @@
         <option value="$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/controller/DataResult.java" />
         <option value="$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/controller/RestDemoController.java" />
         <option value="$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/controller/ResultAdvice.java" />
-        <option value="$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/controller/RestTestController.java" />
         <option value="$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/controller/BusinessException.java" />
+        <option value="$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/reuslt/BusinessException.java" />
+        <option value="$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/reuslt/DataResult.java" />
+        <option value="$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/reuslt/ExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/service/IBusiService.java" />
+        <option value="$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/service/BusiServiceImpl.java" />
+        <option value="$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/service/impl/BusiServiceImpl.java" />
+        <option value="$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/controller/RestTestController.java" />
+        <option value="$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/reuslt/ErrCodeEnum.java" />
+        <option value="$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/reuslt/ResultAdvice.java" />
+        <option value="$PROJECT_DIR$/zhaoyun-exception-handle/readme.md" />
       </list>
     </option>
   </component>
@@ -248,17 +200,17 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="413" />
+    <option name="y" value="220" />
+    <option name="width" value="1932" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -315,12 +267,11 @@
               <item name="zhaoyun-shortcut" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhaoyun-shortcut" type="462c0819:PsiDirectoryNode" />
               <item name="zhaoyun-exception-handle" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhaoyun-shortcut" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhaoyun-shortcut" type="462c0819:PsiDirectoryNode" />
-              <item name="zhaoyun-thread-pool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shortcut" type="462c0819:PsiDirectoryNode" />
+              <item name="reuslt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zhaoyun-shortcut" type="b2602c69:ProjectViewProjectNode" />
@@ -331,7 +282,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -458,7 +409,9 @@
       <workItem from="1667788848493" duration="631000" />
       <workItem from="1667792348833" duration="366000" />
       <workItem from="1667802714049" duration="4575000" />
-      <workItem from="1667871881964" duration="6756000" />
+      <workItem from="1667871881964" duration="10147000" />
+      <workItem from="1668161711240" duration="1046000" />
+      <workItem from="1669533291640" duration="3372000" />
     </task>
     <servers />
   </component>
@@ -495,7 +448,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74331000" />
+    <option name="totallyTimeSpent" value="82140000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -507,9 +460,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49832216" visible="true" weight="0.19029851" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49832216" visible="true" weight="0.14030206" />
       <window_info id="Structure" order="1" sideWeight="0.5016779" side_tool="true" weight="0.25938338" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -519,18 +473,18 @@
       <window_info id="Web" order="7" show_stripe_button="false" sideWeight="0.5016779" side_tool="true" weight="0.25938338" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.86886996" visible="true" weight="0.26898047" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.86886996" weight="0.26898047" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8859275" weight="0.47071582" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32953367" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.8017058" weight="0.24728851" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.80117273" weight="0.24728851" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.13113007" side_tool="true" visible="true" weight="0.26898047" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5019873" side_tool="true" visible="true" weight="0.1848674" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49946696" weight="0.2505423" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49801272" visible="true" weight="0.1848674" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3286334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
@@ -592,46 +546,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/sanguo.zhaoyun.shortcut.AdviceException.ResultAdvice">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>sanguo.zhaoyun.shortcut.AdviceException.ResultAdvice</OriginalElement>
-          <nodes>
-            <node x="" y="">sanguo.zhaoyun.shortcut.AdviceException.ResultAdvice</node>
-            <node x="" y="">lombok.extern.slf4j.Slf4j</node>
-            <node x="" y="">org.springframework.web.bind.annotation.RestControllerAdvice</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="176.0" y="57.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhaoyun-thread-pool/src/main/java/sanguo/zhaoyun/shortcut/AdviceException/ResultAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhaoyun-thread-pool/src/main/java/sanguo/zhaoyun/shortcut/AdviceException/BusinessException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zhaoyun-thread-pool/src/main/java/sanguo/zhaoyun/shortcut/AdviceException/BusiService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -867,33 +781,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhaoyun-valid/src/main/java/sanguo/zhaoyun/shortcut/customer/Validator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhaoyun-valid/src/main/java/sanguo/zhaoyun/shortcut/controller/DataResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhaoyun-valid/src/main/java/sanguo/zhaoyun/shortcut/customer/CommonExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/zhaoyun-valid/src/main/java/sanguo/zhaoyun/shortcut/customer/Validator.java" />
+    <entry file="file://$PROJECT_DIR$/zhaoyun-valid/src/main/java/sanguo/zhaoyun/shortcut/controller/DataResult.java" />
+    <entry file="file://$PROJECT_DIR$/zhaoyun-valid/src/main/java/sanguo/zhaoyun/shortcut/customer/CommonExceptionHandler.java" />
     <entry file="file://$PROJECT_DIR$/zhaoyun-valid/src/main/java/sanguo/zhaoyun/shortcut/customer/IdentityCardNumberValidator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -908,16 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhaoyun-valid/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2574">
-            <caret line="117" column="26" selection-start-line="117" selection-start-column="26" selection-end-line="117" selection-end-column="26" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -952,44 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/controller/ResultAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/controller/DataResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
-          <folding>
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/controller/ErrCodeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/controller/RestTestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/MegviiApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
@@ -1000,18 +842,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhaoyun-exception-handle/readme.md">
+    <entry file="file://$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/reuslt/BusinessException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.8.RELEASE/spring-web-5.2.8.RELEASE.jar!/org/springframework/web/bind/annotation/ExceptionHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/service/IBusiService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/service/impl/BusiServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/reuslt/DataResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+          <folding>
+            <element signature="e#929#930#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/reuslt/ErrCodeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhaoyun-valid/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="220">
+            <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/controller/BusinessException.java">
+    <entry file="file://$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/controller/RestTestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+        <state relative-caret-position="357">
+          <caret line="20" selection-start-line="20" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhaoyun-exception-handle/src/main/java/sanguo/zhaoyun/shortcut/reuslt/ResultAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhaoyun-exception-handle/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="528">
+            <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
