@@ -10,7 +10,6 @@
 
     <modules>
         <module>zhaoyun-thread-pool</module>
-        <module>zhaoyun-actuator</module>
         <module>zhaoyun-stream</module>
         <module>zhaoyun-valid</module>
         <module>zhaoyun-exception-handle</module>
