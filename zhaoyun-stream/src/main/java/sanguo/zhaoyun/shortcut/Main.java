@@ -1,7 +1,5 @@
 package sanguo.zhaoyun.shortcut;
 
-
-import sanguo.zhaoyun.shortcut.stream.OptionalDemo;
 import sanguo.zhaoyun.shortcut.stream.Terminal;
 
 public class Main {

@@ -8,10 +8,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="zhaoyun-stream" />
-        <module name="zhaoyun-valid" />
-        <module name="zhaoyun-actuator" />
         <module name="zhaoyun-thread-pool" />
         <module name="zhaoyun-exception-handle" />
+        <module name="zhaoyun-valid" />
+        <module name="zhaoyun-actuator" />
       </profile>
     </annotationProcessing>
   </component>
