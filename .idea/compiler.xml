@@ -8,12 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="zhaoyun-stream" />
-        <module name="zhaoyun-thread-pool" />
-        <module name="zhaoyun-exception-handle" />
-        <module name="zhaoyun-valid" />
         <module name="zhaoyun-actuator" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="zhaoyun-exception-handle" target="1.8" />
+      <module name="zhaoyun-thread-pool" target="1.8" />
+      <module name="zhaoyun-valid" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
