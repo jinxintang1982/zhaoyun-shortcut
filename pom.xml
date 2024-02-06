@@ -10,6 +10,7 @@
 
     <modules>
         <module>zhaoyun-stream</module>
+        <module>zhaoyun-json</module>
     </modules>
 
     <packaging>pom</packaging>
