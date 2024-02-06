@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92ea5ff7-ce02-417c-8981-7f876de8a3e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/zhaoyun-json/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zhaoyun-json/src/main/java/sanguo/zhaoyun/json/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zhaoyun-json/src/main/java/sanguo/zhaoyun/json/controller/RestDemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zhaoyun-json/src/main/java/sanguo/zhaoyun/json/domain/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaoyun-stream/src/main/java/sanguo/zhaoyun/shortcut/stream/Intermediate.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhaoyun-stream/src/main/java/sanguo/zhaoyun/shortcut/stream/Intermediate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaoyun-stream/target/classes/META-INF/zhaoyun-stream.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaoyun-stream/target/classes/sanguo/zhaoyun/shortcut/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/zhaoyun-stream/target/classes/sanguo/zhaoyun/shortcut/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaoyun-stream/target/classes/sanguo/zhaoyun/shortcut/StringToAscii.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaoyun-stream/target/classes/sanguo/zhaoyun/shortcut/stream/Intermediate$Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/zhaoyun-stream/target/classes/sanguo/zhaoyun/shortcut/stream/Intermediate$Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaoyun-stream/target/classes/sanguo/zhaoyun/shortcut/stream/Intermediate.class" beforeDir="false" afterPath="$PROJECT_DIR$/zhaoyun-stream/target/classes/sanguo/zhaoyun/shortcut/stream/Intermediate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhaoyun-stream/target/classes/sanguo/zhaoyun/shortcut/stream/OptionalDemo$User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhaoyun-json/src/main/java/sanguo/zhaoyun/json/controller/RestDemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhaoyun-json/src/main/java/sanguo/zhaoyun/json/controller/RestDemoController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,15 +38,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="49" selection-start-line="49" selection-end-line="54" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zhaoyun-stream/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
@@ -72,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zhaoyun-json/src/main/java/sanguo/zhaoyun/json/domain/Message.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="23" column="77" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
+            <state relative-caret-position="425">
+              <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zhaoyun-json/src/main/java/sanguo/zhaoyun/json/domain/TaskCompleteMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="396">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,29 +78,52 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zhaoyun-json/src/main/java/sanguo/zhaoyun/json/controller/RestDemoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="506">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="44">
+                <caret line="2" selection-start-line="2" selection-end-line="18" selection-end-column="42" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zhaoyun-json/src/main/java/sanguo/zhaoyun/json/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="132">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhaoyun-json/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zhaoyun-json/src/main/java/sanguo/zhaoyun/json/domain/StationMessage.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -157,7 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/zhaoyun-valid/src/main/java/sanguo/zhaoyun/shortcut/valid/ValidMethod.java" />
         <option value="$PROJECT_DIR$/zhaoyun-valid/src/main/java/sanguo/zhaoyun/shortcut/valid/AssistMsgPageRequest.java" />
         <option value="$PROJECT_DIR$/zhaoyun-valid/src/main/java/sanguo/zhaoyun/shortcut/valid/controller/ThymeleafController.java" />
         <option value="$PROJECT_DIR$/zhaoyun-valid/src/main/java/sanguo/zhaoyun/shortcut/valid/ServiceMethod.java" />
@@ -207,6 +206,7 @@
         <option value="$PROJECT_DIR$/zhaoyun-json/src/main/java/sanguo/zhaoyun/json/domain/StationMessage.java" />
         <option value="$PROJECT_DIR$/zhaoyun-json/src/main/java/sanguo/zhaoyun/json/domain/Message.java" />
         <option value="$PROJECT_DIR$/zhaoyun-json/src/main/java/sanguo/zhaoyun/json/domain/TaskCompleteMessage.java" />
+        <option value="$PROJECT_DIR$/zhaoyun-json/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/zhaoyun-json/src/main/java/sanguo/zhaoyun/json/controller/RestDemoController.java" />
       </list>
     </option>
@@ -242,57 +242,7 @@
             <path>
               <item name="zhaoyun-shortcut" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhaoyun-shortcut" type="462c0819:PsiDirectoryNode" />
-              <item name="zhaoyun-json" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhaoyun-shortcut" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhaoyun-shortcut" type="462c0819:PsiDirectoryNode" />
-              <item name="zhaoyun-json" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhaoyun-shortcut" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhaoyun-shortcut" type="462c0819:PsiDirectoryNode" />
-              <item name="zhaoyun-json" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhaoyun-shortcut" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhaoyun-shortcut" type="462c0819:PsiDirectoryNode" />
-              <item name="zhaoyun-json" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhaoyun-shortcut" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhaoyun-shortcut" type="462c0819:PsiDirectoryNode" />
-              <item name="zhaoyun-json" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhaoyun-shortcut" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhaoyun-shortcut" type="462c0819:PsiDirectoryNode" />
-              <item name="zhaoyun-json" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhaoyun-shortcut" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhaoyun-shortcut" type="462c0819:PsiDirectoryNode" />
-              <item name="zhaoyun-json" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="zhaoyun-stream" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -327,6 +277,7 @@
       <recent name="sanguo.zhaoyun.shortcut.AdviceException" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\01mySpace\04Code\03.myCreate\zhaoyun-shortcut\zhaoyun-json\src\main\resources" />
       <recent name="C:\01mySpace\04Code\03.myCreate\zhaoyun-shortcut\zhaoyun-json\src\main\java" />
       <recent name="C:\01mySpace\04Code\03.myCreate\zhaoyun-shortcut\zhaoyun-valid\src\main\java\sanguo\zhaoyun\shortcut\customer" />
       <recent name="C:\01mySpace\04Code\03.myCreate\zhaoyun-shortcut\zhaoyun-valid\src\main\java\sanguo\zhaoyun\shortcut\valid" />
@@ -414,7 +365,7 @@
       <workItem from="1689411474467" duration="734000" />
       <workItem from="1689413035133" duration="1483000" />
       <workItem from="1701773102321" duration="594000" />
-      <workItem from="1707187234247" duration="1377000" />
+      <workItem from="1707187234247" duration="4468000" />
     </task>
     <servers />
   </component>
@@ -451,7 +402,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92834000" />
+    <option name="totallyTimeSpent" value="95925000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,7 +415,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49832216" visible="true" weight="0.18496802" />
       <window_info id="Structure" order="1" sideWeight="0.5016779" side_tool="true" weight="0.25938338" />
@@ -476,15 +426,15 @@
       <window_info id="Web" order="7" show_stripe_button="false" sideWeight="0.5016779" side_tool="true" weight="0.25938338" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8683369" visible="true" weight="0.26898047" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8859275" weight="0.47071582" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8683369" weight="0.36442515" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.88539445" visible="true" weight="0.2494577" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32953367" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.73880595" weight="0.20715836" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.7382729" weight="0.16052061" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.13166311" side_tool="true" visible="true" weight="0.26898047" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.114605546" side_tool="true" visible="true" weight="0.2494577" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49253732" weight="0.28633407" />
@@ -549,7 +499,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/zhaoyun-valid/src/main/java/sanguo/zhaoyun/shortcut/valid/ServiceMethod.java" />
     <entry file="file://$PROJECT_DIR$/zhaoyun-valid/src/main/java/sanguo/zhaoyun/shortcut/Application.java" />
     <entry file="file://$PROJECT_DIR$/zhaoyun-valid/src/main/java/sanguo/zhaoyun/shortcut/controller/ISaveGroup.java" />
     <entry file="file://$PROJECT_DIR$/zhaoyun-valid/src/main/java/sanguo/zhaoyun/shortcut/controller/RestDemoController.java" />
@@ -587,16 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="396">
-            <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -705,26 +644,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhaoyun-json/src/main/java/sanguo/zhaoyun/json/domain/StationMessage.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/zhaoyun-json/src/main/java/sanguo/zhaoyun/json/domain/MessageContent.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhaoyun-json/src/main/java/sanguo/zhaoyun/json/domain/Message.java">
+    <entry file="file://$PROJECT_DIR$/zhaoyun-json/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="23" column="77" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhaoyun-json/src/main/java/sanguo/zhaoyun/json/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhaoyun-json/src/main/java/sanguo/zhaoyun/json/domain/StationMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhaoyun-json/src/main/java/sanguo/zhaoyun/json/domain/TaskCompleteMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhaoyun-json/src/main/java/sanguo/zhaoyun/json/domain/TaskCompleteMessage.java">
+    <entry file="file://$PROJECT_DIR$/zhaoyun-json/src/main/java/sanguo/zhaoyun/json/domain/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="425">
+          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -733,20 +690,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zhaoyun-json/src/main/java/sanguo/zhaoyun/json/controller/RestDemoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="506">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhaoyun-json/src/main/java/sanguo/zhaoyun/json/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="44">
+            <caret line="2" selection-start-line="2" selection-end-line="18" selection-end-column="42" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
