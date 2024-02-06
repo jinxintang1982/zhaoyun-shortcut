@@ -8,13 +8,13 @@ import sanguo.zhaoyun.json.domain.StationMessage;
 import sanguo.zhaoyun.json.domain.TaskCompleteMessage;
 
 @RestController
-@RequestMapping(value = "/users")
+@RequestMapping(value = "/jackson")
 @Slf4j
-public class RestDemoController {
+public class JacksonController {
     //Controller默认为单例模式，其成员变量生命周期为整个应用，并且为各线程公用，使用ThreadLocal和线程安全对象
 
-    @PostMapping("helloWorld")
-    public String helloWorld(@RequestBody Message message) {
+    @PostMapping("/JsonSubTypes")
+    public String JsonSubTypes(@RequestBody Message message) {
         String result = "hello world";
         if (message.getContent() instanceof TaskCompleteMessage) {
             result = "is TaskCompleteMessage" + message.getContent();
